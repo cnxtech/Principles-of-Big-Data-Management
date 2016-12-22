@@ -19,7 +19,7 @@ In this query, we are fetching the diseases and its tweets count in the file. Th
 <h4><i>Query 2: Countries that tweeted more on Diseases (Google Maps)</i></h4>
 In this query, the top countries that tweeted more on diseases is fetched. First the location in tweets are fetched from tweets file and count is displayed as shown below. The data is stored in .csv format and the file is read and Visualization is done on Google Maps.
 
-<img src="https://github.com/cmoulika009/Principles-of-Big-Data-Management/blob/master/PB%20Phase-3-%20Team-11/Images/2.png">
+<img src="https://github.com/cmoulika009/Principles-of-Big-Data-Management/blob/master/PB%20Phase-3-%20Team-11/Images/12.jpg">
 
 <h4><i>Query 3: Popular Hashtags</i></h4>
 In this query, we took popular hash tags text file from blackboard and performed JOIN operation with hash tags from diseases tweets file. The fetched data is stored in .csv format to do visualization.
