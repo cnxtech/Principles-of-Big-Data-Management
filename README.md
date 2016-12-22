@@ -20,17 +20,22 @@ In this query, we took popular hash tags text file from blackboard and performed
 
 <img src="https://github.com/cmoulika009/Principles-of-Big-Data-Management/blob/master/PB%20Phase-3-%20Team-11/Images/3.png">
 
-<h4><i>Query 4: On which day of week, more tweets are done on diseases</i></h4>
-In this query, data is fetched based on which day of week more tweets are done on Diseases. Initially created_at is fetched from tweets file and count of tweets is done on each day of week.
-
-<img src="https://github.com/cmoulika009/Principles-of-Big-Data-Management/blob/master/PB%20Phase-3-%20Team-11/Images/4.png">
-
-<h4><i>Query 5: Top 10 Users Tweeted on Diseases</i></h4>
-In this query the we are fetching top 10 users who tweeted more on diseases. This query is written using RDD. Initially for each disease, the top tweeted user is fetched and UNION RDD is used to club all the diseases. The results are stored in .csv file to do visualization
+<h4><i>Query 4: Most Popular Tweeted Words</i></h4>
+In this query, most occurring words in tweets on diseases is fetched. On the fetched data visualization is done dynamically.
 
 <img src="https://github.com/cmoulika009/Principles-of-Big-Data-Management/blob/master/PB%20Phase-3-%20Team-11/Images/5.png">
 
-<h4><i>Query 6: Follower Id’s count using Twitter API</i></h4>
+<h4><i>Query 5: On which day of week, more tweets are done on diseases</i></h4>
+In this query, data is fetched based on which day of week more tweets are done on Diseases. Initially created_at is fetched from tweets file and count of tweets is done on each day of week.
+
+<img src="https://github.com/cmoulika009/Principles-of-Big-Data-Management/blob/master/PB%20Phase-3-%20Team-11/Images/6.png">
+
+<h4><i>Query 6: Top 10 Users Tweeted on Diseases</i></h4>
+In this query the we are fetching top 10 users who tweeted more on diseases. This query is written using RDD. Initially for each disease, the top tweeted user is fetched and UNION RDD is used to club all the diseases. The results are stored in .csv file to do visualization
+
+<img src="https://github.com/cmoulika009/Principles-of-Big-Data-Management/blob/master/PB%20Phase-3-%20Team-11/Images/7.png">
+
+<h4><i>Query 7: Follower Id’s count using Twitter API</i></h4>
 Twitter Get Followers ids API is used. A query to display five screen names from the tweets file is written. When the query is executed a table with ten screen names is displayed in the table.
 
 <b>Val request = new HttpGet("https://api.twitter.com/1.1/followers/ids.json?cursor=-1&screen_name=" + name)</b>
