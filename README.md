@@ -48,7 +48,7 @@ Twitter Get Followers ids API is used. A query to display five screen names from
 
 First the user is given a Choice to enter a screen name of his choice. Once the screen name has been inputted the follower’s id
 
-<img src="https://github.com/cmoulika009/Principles-of-Big-Data-Management/blob/master/PB%20Phase-3-%20Team-11/Images/9.png" width=200px height=200px>
+<img src="https://github.com/cmoulika009/Principles-of-Big-Data-Management/blob/master/PB%20Phase-3-%20Team-11/Images/9.png">
 
 Once screen name RevistaCOFEPRIS is entered the follower id’s count are displayed as shown below
 
@@ -62,5 +62,7 @@ Once screen name RevistaCOFEPRIS is entered the follower id’s count are displa
 <b>Phase-2 Document:</b> https://github.com/cmoulika009/Principles-of-Big-Data-Management/blob/master/PB%20Phase-2-%20Team%2011/PB%20Phase-2%20Team-11.pdf
 
 <b>Final Project Document:</b> https://github.com/cmoulika009/Principles-of-Big-Data-Management/blob/master/PB%20Phase-3-%20Team-11/PB%20Phase-3%20Team-11.pdf
+
+<b>Tweet Location:</b> https://www.dropbox.com/s/04zebrisw6jm6n0/Disease_Tweets.json?dl=0
 
 <b>Youtube Video:</b> https://youtu.be/dRO-2chnycM
