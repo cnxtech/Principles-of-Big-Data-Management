@@ -2,9 +2,15 @@
 
 This repository contains all the documents related to PB-Fall 2016.
 
-<h3>About the project</h3>
+<h3>1. About the Project</h3>
 We choose ‘Diseases’ as our topic to do big data analysis. Based on twitter tweets, we predicted some interesting analysis on Diseases using thousands of tweets tweeted by different people. First we collected the tweets from twitter API based on some key words related to Disease. After that, we analyzed the data that we have collected. By using the analysis, we written some interesting SQL queries useful to give a proper result for the analysis.
 
+<h3>2. System Architecture</h3>
+First we generated credential for accessing twitter. By using these credentials, we wrote a python program to collect twitter tweets based on keywords related to food. Tweets were stored in a text file in a JSON format. We will give these JSON file to SQL queries for analysis with Spark, Intellij with Scala program with queries. 
+
+<img src="https://github.com/cmoulika009/Principles-of-Big-Data-Management/blob/master/PB%20Phase-3-%20Team-11/Images/11.png">
+
+<h3>3. Analyzing Twitter Data</h3>
 <h4><i>Query 1: Popular Tweets on Different Diseases </i></h4>
 In this query, we are fetching the diseases and its tweets count in the file. This query is written using RDD, where we are fetching the count of diseases using hashtags using filter and the count is printed further.
 
@@ -50,7 +56,7 @@ Once screen name RevistaCOFEPRIS is entered the follower id’s count are displa
 
 <img src="https://github.com/cmoulika009/Principles-of-Big-Data-Management/blob/master/PB%20Phase-3-%20Team-11/Images/8.png">
 
-<h3>Related Links</h3>
+<h3>4. Related Links</h3>
 <b>Phase-1 Document:</b> https://github.com/cmoulika009/Principles-of-Big-Data-Management/blob/master/PB%20Phase-1-%20Team%2011/PRINCIPLES%20OF%20BIG%20DATA%20MANAGEMENT%20PHASE%201.pdf
 
 <b>Phase-2 Document:</b> https://github.com/cmoulika009/Principles-of-Big-Data-Management/blob/master/PB%20Phase-2-%20Team%2011/PB%20Phase-2%20Team-11.pdf
