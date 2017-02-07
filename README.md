@@ -1,6 +1,4 @@
-# Principles-of-Big-Data-Management : Disease Analysis
-
-This repository contains all the documents related to PB-Fall 2016.
+# Principles of Big Data Management : Disease Analysis
 
 <h3>1. About the Project</h3>
 We choose ‘Diseases’ as our topic to do big data analysis. Based on twitter tweets, we predicted some interesting analysis on Diseases using thousands of tweets tweeted by different people. First we collected the tweets from twitter API based on some key words related to Disease. After that, we analyzed the data that we have collected. By using the analysis, we written some interesting SQL queries useful to give a proper result for the analysis.
